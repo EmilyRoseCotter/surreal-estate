@@ -3,7 +3,9 @@ import '../styles/App.css';
 function App() {
   return (
     <div className="App">
-      <h2>Surreal estate</h2>
+      <body>
+        <h2>Surreal estate</h2>
+      </body>
     </div>
   );
 }
