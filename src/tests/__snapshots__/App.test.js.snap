@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the app 1`] = `
+<DocumentFragment>
+  <div
+    class="App"
+  >
+    <h2>
+      Surreal estate
+    </h2>
+  </div>
+</DocumentFragment>
+`;
