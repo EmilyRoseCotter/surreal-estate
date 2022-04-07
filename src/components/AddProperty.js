@@ -27,9 +27,9 @@ function AddProperty() {
 
   return (
     <div className="AddProperty">
-      <h2>Add Property</h2>
-      <form onSubmit={handleAddProperty}>
-        <label htmlFor="title">
+      <h2 className="add-prop-title">Add Property</h2>
+      <form className="properties-form" onSubmit={handleAddProperty}>
+        <label className="field-options" htmlFor="title">
           Title:
           <input
             id="title"
@@ -39,7 +39,8 @@ function AddProperty() {
             placeholder="Property tag line"
           />
         </label>
-        <label htmlFor="type">
+
+        <label className="field-options" htmlFor="type">
           Property type:
           <select
             id="type"
@@ -56,7 +57,8 @@ function AddProperty() {
             <option value="Bungalow">Bungalow</option>
           </select>
         </label>
-        <label htmlFor="bedrooms">
+
+        <label className="field-options" htmlFor="bedrooms">
           No. of bedrooms:
           <select
             id="bedrooms"
@@ -72,7 +74,8 @@ function AddProperty() {
             <option value="5">5</option>
           </select>
         </label>
-        <label htmlFor="bathrooms">
+
+        <label className="field-options" htmlFor="bathrooms">
           No. of bathrooms:
           <select
             id="bathrooms"
@@ -87,7 +90,8 @@ function AddProperty() {
             <option value="5">5</option>
           </select>
         </label>
-        <label htmlFor="price">
+
+        <label className="field-options" htmlFor="price">
           Price (£):
           <input
             type="number"
@@ -98,7 +102,8 @@ function AddProperty() {
             placeholder="0"
           />
         </label>
-        <label htmlFor="city">
+
+        <label className="field-options" htmlFor="city">
           City:
           <select
             id="city"
@@ -112,7 +117,8 @@ function AddProperty() {
             <option value="Liverpool">Liverpool</option>
           </select>
         </label>
-        <label htmlFor="email">
+
+        <label className="field-options" htmlFor="email">
           Email:
           <input
             type="email"
@@ -123,9 +129,12 @@ function AddProperty() {
             placeholder="email@email.com"
           />
         </label>
-        <button className="submit-button" type="submit">
-          Add
-        </button>
+
+        <div className="button-container">
+          <button className="submit-button" type="submit">
+            Add
+          </button>
+        </div>
       </form>
     </div>
   );
