@@ -1,4 +1,4 @@
-# Surreal estate:
+# Surreal Estate
 
 ## About
 

@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import "../styles/NavBar.css";
 
 function NavBar() {
@@ -9,8 +10,12 @@ function NavBar() {
         alt="surreal estate logo"
       />
       <ul className="navbar-links">
-        <li className="navbar-links-item">View Properties</li>
-        <li className="navbar-links-item">Add a Property</li>
+        <NavLink to="/" className="navbar-links-item">
+          <li>View properties</li>
+        </NavLink>
+        <NavLink to="/add-property" className="navbar-links-item">
+          <li>Add a property</li>
+        </NavLink>
       </ul>
     </div>
   );
