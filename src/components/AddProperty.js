@@ -5,7 +5,7 @@ const initialState = {
   fields: {
     title: "",
     type: "Flat",
-    bedrooms: "Studio",
+    bedrooms: "1",
     bathrooms: "1",
     price: "",
     city: "Manchester",
@@ -62,11 +62,11 @@ function AddProperty() {
           No. of bedrooms:
           <select
             id="bedrooms"
+            type="number"
             name="bedrooms"
             value={fields.bedrooms}
             onChange={handleFieldChange}
           >
-            <option value="Studio">Studio</option>
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -79,6 +79,7 @@ function AddProperty() {
           No. of bathrooms:
           <select
             id="bathrooms"
+            type="number"
             name="bathrooms"
             value={fields.bathrooms}
             onChange={handleFieldChange}
