@@ -5,8 +5,8 @@ const initialState = {
   fields: {
     title: "",
     type: "Flat",
-    bedrooms: "",
-    bathrooms: "",
+    bedrooms: "Studio",
+    bathrooms: "1",
     price: "",
     city: "Manchester",
     email: "",
