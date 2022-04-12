@@ -15,6 +15,10 @@ img {
   list-style-type: none;
 }
 
+.navbar-links li {
+  color: black;
+}
+
 .navbar-links-item {
   margin: 0;
   padding: 10px;

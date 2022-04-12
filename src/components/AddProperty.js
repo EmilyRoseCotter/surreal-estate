@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import axios from "axios";
 import "../styles/AddProperty.css";
 
 const initialState = {
@@ -18,7 +19,14 @@ function AddProperty() {
 
   const handleAddProperty = (event) => {
     event.preventDefault();
-    console.log(fields);
+    axios
+      .post("http://localhost:3000/api/v1/PropertyListing", { ...fields })
+      .then(function (response) {
+        console.log(response);
+      })
+      .catch(function (error) {
+        console.log(error);
+      });
   };
 
   const handleFieldChange = (event) => {
@@ -27,7 +35,6 @@ function AddProperty() {
 
   return (
     <div className="AddProperty">
-      <h2 className="add-prop-title">Add Property</h2>
       <form className="properties-form" onSubmit={handleAddProperty}>
         <label className="field-options" htmlFor="title">
           Title:
