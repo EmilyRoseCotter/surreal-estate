@@ -5,9 +5,40 @@ exports[`renders the app 1`] = `
   <div
     class="App"
   >
-    <h2>
-      Surreal estate
-    </h2>
+    <div
+      class="navbar"
+    >
+      <img
+        alt="surreal estate logo"
+        src="https://mcrcodes.s3.eu-west-2.amazonaws.com/course/surreal-estate/logo.png"
+      />
+      <ul
+        class="navbar-links"
+      >
+        <a
+          aria-current="page"
+          class="navbar-links-item active"
+          href="/"
+        >
+          <li>
+            View properties
+          </li>
+        </a>
+        <a
+          class="navbar-links-item"
+          href="/add-property"
+        >
+          <li>
+            Add a property
+          </li>
+        </a>
+      </ul>
+    </div>
+    <div>
+      <h2>
+        Properties
+      </h2>
+    </div>
   </div>
 </DocumentFragment>
 `;

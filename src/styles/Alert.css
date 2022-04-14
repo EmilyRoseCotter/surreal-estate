@@ -1,0 +1,20 @@
+.alert-success, .alert-error {
+ padding: 5px;
+}
+
+.alert-error {
+  background: rgba(255, 122, 89, .5);
+}
+
+.alert-success {
+  background: rgb(202 238 165 / 50%);;
+}
+
+@media only screen and (min-width: 460px){
+    .alert-error {
+      width: 46%;
+    }
+    .alert-success {
+      width: 22%;
+    }
+}
