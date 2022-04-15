@@ -27,7 +27,10 @@ function PropertyCard({
       <div className="property-card-bathrooms property-card-item">
         Bathrooms: {bathrooms}
       </div>
-      <div className="property-card-bedrooms property-card-item">
+      <div
+        className="property-card-bedrooms property-card-item"
+        data-testid="property-card_bedrooms"
+      >
         Bedrooms: {bedrooms}
       </div>
       <div className="property-card-price property-card-item">{price}</div>
