@@ -1,0 +1,29 @@
+.property-card {
+  background-color: white;
+  margin: 20px;
+  border: 2px solid #5a2c8c;
+  display: flex;
+  flex-direction: column;
+}
+
+.property-card-item {
+  margin: 5px;
+  font-weight: 700;
+}
+
+.property-card-title {
+  font-weight: 900;
+}
+
+.property-card-type-city {
+  font-style: italic;
+}
+
+.property-card-email {
+    background: #5a2c8c;
+    padding: 5px;
+}
+
+.link-text {
+  color: white;
+}
