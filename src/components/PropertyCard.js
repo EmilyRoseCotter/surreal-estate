@@ -15,6 +15,7 @@ function PropertyCard({
     <div className="property-card">
       <div className="property-card-image">
         <img
+          className="house-image"
           src="https://mcrcodes.s3.eu-west-2.amazonaws.com/course/surreal-estate/logo.png"
           alt="surreal estate logo"
         />
