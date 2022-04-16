@@ -4,6 +4,7 @@
   border: 2px solid #5a2c8c;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
 }
 
 .property-card-image {

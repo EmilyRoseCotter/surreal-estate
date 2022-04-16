@@ -33,7 +33,7 @@ function PropertyCard({
       >
         Bedrooms: {bedrooms}
       </div>
-      <div className="property-card-price property-card-item">{price}</div>
+      <div className="property-card-price property-card-item">£{price}</div>
       <div className="property-card-email property-card-item">
         <a className="link-text" href={`mailto:${email}?subject=${title}`}>
           Email
@@ -48,9 +48,9 @@ export default PropertyCard;
 PropertyCard.propTypes = {
   title: PropTypes.string.isRequired,
   type: PropTypes.string.isRequired,
-  bathrooms: PropTypes.number.isRequired,
-  bedrooms: PropTypes.number.isRequired,
-  price: PropTypes.number.isRequired,
+  bathrooms: PropTypes.string.isRequired,
+  bedrooms: PropTypes.string.isRequired,
+  price: PropTypes.string.isRequired,
   city: PropTypes.string.isRequired,
   email: PropTypes.string.isRequired,
 };
