@@ -5,20 +5,21 @@ import "../styles/SideBar.css";
 function SideBar() {
   return (
     <div className="side-bar">
-      <ul className="sidebar-links">
+      <p className="filter-title">Filter by city:</p>
+      <div className="sidebar-links">
         <Link className="link-item" to={`/?query={"city":"Manchester"}`}>
-          <li>Manchester</li>
+          Manchester
         </Link>
         <Link className="link-item" to={`/?query={"city":"Leeds"}`}>
-          <li>Leeds</li>
+          Leeds
         </Link>
         <Link className="link-item" to={`/?query={"city":"Sheffield"}`}>
-          <li>Sheffield</li>
+          Sheffield
         </Link>
         <Link className="link-item" to={`/?query={"city":"Liverpool"}`}>
-          <li>Liverpool</li>
+          Liverpool
         </Link>
-      </ul>
+      </div>
     </div>
   );
 }

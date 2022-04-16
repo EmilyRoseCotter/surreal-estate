@@ -33,13 +33,13 @@ function Properties() {
 
   return (
     <div className="properties-page">
-      <div>
-        <SideBar />
-      </div>
       <div className="alert">
         <Alert message={alert.message} success={false} />
       </div>
       <div>
+        <div>
+          <SideBar />
+        </div>
         <div className="property-cards">
           {properties.map((property) => (
             <div className="column">
