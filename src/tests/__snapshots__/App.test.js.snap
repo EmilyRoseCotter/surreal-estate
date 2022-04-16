@@ -34,58 +34,16 @@ exports[`renders the app 1`] = `
         </a>
       </ul>
     </div>
-    <div>
-      <h2>
-        Properties
-      </h2>
+    <div
+      class="properties-page"
+    >
       <div
-        class="property-card"
-      >
+        class="alert"
+      />
+      <div>
         <div
-          class="property-card-image"
-        >
-          <img
-            alt="surreal estate logo"
-            class="house-image"
-            src="https://mcrcodes.s3.eu-west-2.amazonaws.com/course/surreal-estate/logo.png"
-          />
-        </div>
-        <div
-          class="property-card-title property-card-item"
-        >
-          2 bed cottage
-        </div>
-        <div
-          class="property-card-type-city property-card-item"
-        >
-          Cottage - Manchester
-        </div>
-        <div
-          class="property-card-bathrooms property-card-item"
-        >
-          Bathrooms: 2
-        </div>
-        <div
-          class="property-card-bedrooms property-card-item"
-          data-testid="property-card_bedrooms"
-        >
-          Bedrooms: 2
-        </div>
-        <div
-          class="property-card-price property-card-item"
-        >
-          £100000
-        </div>
-        <div
-          class="property-card-email property-card-item"
-        >
-          <a
-            class="link-text"
-            href="mailto:estate@estate.com?subject=2 bed cottage"
-          >
-            Email
-          </a>
-        </div>
+          class="property-cards"
+        />
       </div>
     </div>
   </div>

@@ -48,7 +48,7 @@ describe("PropertyCard", () => {
     );
     expect(getByText("Bathrooms: 2")).toHaveClass("property-card-bathrooms");
     expect(getByText("Bedrooms: 3")).toHaveClass("property-card-bedrooms");
-    expect(getByText(100000)).toHaveClass("property-card-price");
+    expect(getByText("£100000")).toHaveClass("property-card-price");
     expect(getByText("Email")).toHaveClass("link-text");
   });
 });

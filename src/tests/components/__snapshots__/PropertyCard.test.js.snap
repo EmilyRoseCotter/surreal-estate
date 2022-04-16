@@ -38,7 +38,7 @@ exports[`PropertyCard renders correctly 1`] = `
     <div
       class="property-card-price property-card-item"
     >
-      100000
+      £100000
     </div>
     <div
       class="property-card-email property-card-item"
