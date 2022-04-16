@@ -1,0 +1,22 @@
+.side-bar {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-links {
+ list-style-type: none;
+}
+
+li {
+ color: #5a2c8c;
+}
+
+.link-item {
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.link-item:hover {
+    text-decoration: underline;
+    text-decoration-color: #5a2c8c;
+}
