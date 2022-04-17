@@ -1,10 +1,14 @@
+.properties-page {
+  display: flex;
+}
+
 .alert .alert-error {
   margin: 5px;
 }
 
 .property-cards {
     display: flex;
-    flex-flow: wrap;
+    flex-wrap: wrap;
 }
 
 .column {

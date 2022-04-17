@@ -33,9 +33,7 @@ function Properties() {
 
   return (
     <div className="properties-page">
-      <div>
-        <SideBar />
-      </div>
+      <SideBar />
       <div className="alert">
         <Alert message={alert.message} success={false} />
       </div>

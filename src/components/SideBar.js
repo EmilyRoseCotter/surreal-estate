@@ -47,8 +47,8 @@ function SideBar() {
           Search
         </button>
       </form>
-      <p className="filter-title">Filter by city:</p>
       <div className="sidebar-links">
+        <p className="filter-title">Filter by city:</p>
         <Link
           className="link-item"
           to={buildQueryString("query", { city: "Manchester" })}
